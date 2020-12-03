@@ -2,8 +2,8 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class Day1 {
-    public Day1() throws IOException {
-        double c = 42.0;
+    public Day1(int d) throws IOException {
+        double c = d;
         System.out.println((int) c);
         Double f = 4.2;
         System.out.println(f.intValue());

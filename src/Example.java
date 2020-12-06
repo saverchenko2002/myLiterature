@@ -1,8 +1,10 @@
 import java.io.IOException;
+import java.io.RandomAccessFile;
 
 public class Example {
-    public static void main(String[] args) throws IOException {
-
+    public static void main(String[] args)  {
+        Day3.sergey();
+        Day3.sergey2();
     }
 }
 
